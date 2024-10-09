@@ -39,10 +39,9 @@ class House: #Создаем класс House
         else: #иначе
             for floor in range(new_floor):
                 print(floor + 1) 
-
+#Дополняем класс
     def __str__(self):
         return f'Название:{self.name},количество этажей:{self.numbers_of_floors}' #Выводим строку
-#Дополняем класс
     def __len__(self): 
         return self.numbers_of_floors #Возращаем количество этажей здания
 
